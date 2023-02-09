@@ -1,0 +1,86 @@
+html, body { 
+   margin:0;
+   padding:0; 
+ 
+}
+.body{
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;;
+    color:black;
+}
+.carousel-item{
+    height: 32rem;
+    position: relative;
+    background:#625772 ;
+    padding-top: 15px ;
+    padding-bottom: 4px;
+    text-align: justify;
+   
+
+  }
+.logo{
+    font-family: 'Lucida Handwriting';
+    font-weight: bold;
+    font-size:25px;
+    color:#625772;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    font-size: 1.1em;
+    color: #625772;
+}
+.header{
+min-height:400px;
+max-height: 500px;
+}
+#footer{
+    height: 100px;
+}
+
+#footertxt1{
+    font-family: 'Lucida Handwriting';
+    font-weight: bold;
+    font-size:35px;
+    color:white;
+}
+.back_to_top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    margin: 5%;
+}
+hr.solid {
+    border-top: 2px solid rgb(12, 10, 10);
+}
+hr.dot {
+    border-top: 2px dotted rgb(12, 10, 10);
+}
+.audio{
+    text-align: center;
+    
+    
+}
+.footertxt2{
+    color:white;
+    font-size:20px;
+ 
+}
+
+#subscribebtn{
+    height: 1.9rem;
+    width: 6rem;
+    font-size: 0.7em;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+   background-color: #625772;
+}
+
+
+.img-fluid{
+    width:100%;
+}

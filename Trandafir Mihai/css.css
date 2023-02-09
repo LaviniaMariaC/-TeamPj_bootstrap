@@ -1,0 +1,58 @@
+html, body { 
+   margin:0;
+   padding:0; 
+ 
+}
+.carousel-inner > .carousel-item > img {
+    width:640px;
+    height:500px;
+  }
+.body{
+    height: 100vh;
+    font-family: 'Roboto';
+    color:black;
+}
+.logo{
+    font-family: 'Lucida Handwriting';
+    font-weight: bold;
+    font-size:25px;
+    color:#625772;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    font-size: 1.1em;
+    color: #625772;
+}
+.header{
+min-height:400px;
+max-height: 500px;
+}
+#footer{
+    height: 100px;
+}
+
+#footertxt1{
+    font-family: 'Lucida Handwriting';
+    font-weight: bold;
+    font-size:35px;
+    color:white;
+}
+
+.footertxt2{
+    color:white;
+    font-size:20px;
+ 
+}
+
+#subscribebtn{
+    height: 1.9rem;
+    width: 6rem;
+    font-size: 0.7em;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+   background-color: #625772;
+}

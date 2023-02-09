@@ -1,0 +1,237 @@
+html, body { 
+   margin:0;
+   padding:0; 
+ 
+}
+.body{
+    height: 100vh;
+    font-family: 'Roboto';
+    color:black;
+}
+.logo{
+    font-family: 'Lucida Handwriting';
+    font-weight: bold;
+    font-size:25px;
+    color:#625772;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    font-size: 1.1em;
+    color: #625772;
+}
+
+#footer{
+    height: 100px;
+}
+
+#footertxt1{
+    font-family: 'Lucida Handwriting';
+    font-weight: bold;
+    font-size:35px;
+    color:white;
+}
+
+.footertxt2{
+    color:white;
+    font-size:20px;
+ 
+}
+
+#subscribebtn{
+    height: 1.9rem;
+    width: 6rem;
+    font-size: 0.7em;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+   background-color: #625772;
+   position:relative;
+   top:5800px;
+}
+
+
+.img-fluid{
+    position: relative;
+    top: 5800px;
+    width: 100%;
+}
+
+/* Homepage */
+
+
+#slidetxtt{
+    font-family: 'Lucida Handwriting';
+    font-size:40px;
+    top: -200px;
+    position:relative;
+    opacity: 0.9;
+    
+
+}
+
+
+#slidetxt{
+    font-family: 'Roboto';
+    font-size:25px;
+    top: -200px;
+    margin-left:385px;
+    position:relative;
+    background: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 30rem;
+    
+}
+
+
+
+a.page:visited, a.page:hover, a.page:link, a.page:active {
+    color: white;
+  }
+  
+ 
+
+#harta{
+
+    position:relative;
+    top: 200px;
+
+    }
+
+    #distrtxt{
+        text-indent: 50px;
+        border: 1px solid gray;
+      padding: 8px;
+      text-align: justify;
+      position:relative;
+      top:100px;
+      font-family: 'Open-Sans'; 
+      font-size:24px;
+    }
+    
+
+    #parkingspots {
+
+        position:relative;
+        top: 300px;
+    }
+
+    #titluparking{
+        display: block; 
+     margin-left: auto; 
+    margin-right: auto; 
+    }
+
+    #parkingtxt{
+        text-indent: 50px;
+       
+      padding: 8px;
+      text-align: justify;
+      position:relative;
+      font-family: 'Open-Sans'; 
+      font-size:24px;
+    }
+    
+    .card-deck{
+        position: relative;
+        top:100px;
+    }
+    #tourismphoto {
+        position:relative;
+        top:500px;
+        
+      
+    }
+
+    #titlupoza2{
+        position: relative;
+        top:-20px;
+        color:white;
+        text-align:center;
+        font-size:100px;
+        font-family: 'Roboto';
+        text-shadow: 0 0 3px black, 0 0 5px black;
+    }
+
+    
+#infos
+{
+    position: relative;
+    top:400px;
+    text-align:center;
+}
+
+#titleexp{
+    font-family: 'Roboto';
+    font-size:24px;
+    color:#FF9595;
+    font-weight: bold;
+}
+
+#txtexp{
+    font-size:20px;
+    font-family: 'Open-Sans'; 
+}
+
+#txtexp2{
+    font-family: 'Open-Sans'; 
+    text-decoration: underline;
+    font-size:20px;
+    color:#FF9595;
+}
+
+
+
+  a.read:visited, a.read:hover, a.read:link, a.read:active {
+    color: #FF9595 
+  }
+  
+
+  
+
+
+#workation{
+    position: relative;
+    top:600px;
+}
+
+#txtwork{
+
+    position:relative;
+    font-family:'Open-Sans';
+    font-size:25px;
+    top:100px;
+}
+
+#localsphoto{
+    position:relative;
+    top:700px;
+}
+
+
+#titlupoza3{
+    position: relative;
+    top:100px;
+    color:white;
+    text-align:center;
+    font-size:100px;
+    font-family: 'Roboto';
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+#express{
+    position:relative;
+    top: 480px;
+    margin-left:450px;
+    
+}
+
+#table{
+    position:relative;
+    top:500px;
+}
+

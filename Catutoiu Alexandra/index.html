@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+  <head> 
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <!--Pentru iconite-->
+   <a href="https://icons8.com/icon/ohHaasydK6lx/facebook"></a>
+   <!--Pentru fonturi-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Condiment&family=Oooh+Baby&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vujahday+Script&display=swap" rel="stylesheet">
+   <!--Pentru datepicker-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+</head>
+
+<body>
+<div class="d-flex flex-column justify-content-between body" >
+  <!--Navbar--> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="#navbar-list-5">
+
+    <a class="navbar-brand" href="#">
+      <p class="logo">Barcelona</p>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-5">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto nav">
+        <li class="nav-item active ml-4">
+          <a class="nav-link" href="../Caragea Anda-Maria/home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown  ml-2">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Barca
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="../Dragana Sladjana (History)/index.html">History</a></li>
+            <li><a class="dropdown-item" href="../Dragana Caranovic (Personalitati)/index.html">Personalities</a></li>
+          </ul>
+        </li>
+          <li class="nav-item dropdown  ml-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Things to do in Barca
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../Caramida Lavinia/index.html">City visits</a></li>
+              <li><a class="dropdown-item" href="../Busa Andra-Maria/events.html">Festivals&Eveniments</a></li>
+            </ul>
+          </li>
+        <li class="nav-item  ml-2">
+          <a class="nav-link" href="../Trandafir Mihai/index.html">Food</a>
+        </li>
+        <li class="nav-item  ml-2">
+          <a class="nav-link" href="../Caragui Madalin- (Hotels)/index.html">Accomodation</a>
+        </li>
+        <li class="nav-item  ml-2">
+          <a class="nav-link" href="../Catutoiu Alexandra/index.html">Tours</a>
+        </li>
+        <li class="nav-item  ml-2 mr-4">
+          <a class="nav-link" href="../Caragea Anda-Maria/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div> 
+ </nav>
+   <!--END of the navbar-->
+
+   <!--Main section-->
+    <main>
+
+      <div>
+        <img src="./imagini/HeaderPhoto.svg" class="card-img" alt="...">
+        <div class="card-img-overlay d-flex justify-content-center align-items-xl-center align-items-sm-start pt-5 header">
+          <h1 class="card-title text-light pt-5" style="font-weight: 700; font-size: 3em;">Tours & Attractions</h1>
+        </div>
+      </div>
+
+        <div class="d-flex justify-content-center align-items-center flex-column pt-5 pb-2 my-5">
+          <h5 class="card-title text-center" style="font-weight: 700; font-size: 4.5em; color:#f9cebd; font-family:'Roboto',sans-serif;">BOOK YOUR TOUR</h5>
+          <p class="card-text text-center" style="font-weight: 700; font-size: 3em; font-family: 'Oooh Baby',cursive; color: #625772; margin-top: -60px;">Top rated Barcelona tours</p>
+        </div>
+
+      <div class="conatiner px-5">
+        <div class="row px-5">
+        <div class="col-md-6 col-sm-12 col-lg-4 d-flex justify-content-center p-5">
+        <div class="card" style="max-width: 350px;">
+          <img src="./imagini/hoponhop.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+            <h5 class="card-title p-1" style="background-color:#625772; width: 35%; margin-top: -55px; color:#fff; border-radius: 5px;"> <span style="font-size: 0.8em;"> from</span> &euro;25</h5>
+            <h5 class="card-title" style="font-weight: 700;">Hop On Hop Off Barcelona</h5>
+              <p class="card-text text-justify" style="font-size: 1em;">One single ticket, 3 routes and 45 stops. Discover city sightseeing at your own pace!</p>
+            </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <div class="row mt-3">
+                    <div class="col">
+                  <h2 class="accordion-header m-0" id="flush-headingOne" style="font-size: 1.8em;">
+                    <button class="accordion-button collapsed py-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="border: 0; background-color: #fff; font-size: 0.5em;">
+                      More about this tour
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                      </svg>
+                    </button>
+                  </h2>
+                </div>
+                <div class="col">
+                  <form>
+                    <div class="row form-group">
+                            <div class="input-group date" id="datepicker">
+                                <input type="text" class="form-control">
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                </span>
+                            </div>
+                    </div>
+                    <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 0.8em; ">BOOK TICKET</button>
+                </form>
+                 
+                </div>
+                </div>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-justify">You can never think enough about the Hop On Hop Off Barcelona bus tour to discover a city! It is however an extraordinary and economic way to make a first connection with its main tourist attractions, without stress, at its own pace. Barcelona bus tour offers three routes where no monument is forgotten. A great thing to do in Barcelona!</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-12 col-lg-4 d-flex justify-content-center p-5">
+        <div class="card" style="max-width: 350px;">
+          <img src="./imagini/campnou.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+            <h5 class="card-title p-1" style="background-color:#625772; width: 35%; margin-top: -55px; color:#fff; border-radius: 5px;"> <span style="font-size: 0.8em;"> from</span> &euro;25</h5>
+            <h5 class="card-title" style="font-weight: 700;">Camp Nou Tour</h5>
+              <p class="card-text" style="font-size: 1em;">Visit FC Barcelona Stadium & Museum</p>
+            </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <div class="row mt-3">
+                    <div class="col">
+                  <h2 class="accordion-header m-0" id="flush-headingOne" style="font-size: 1.8em;">
+                    <button class="accordion-button collapsed py-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse" aria-expanded="false" aria-controls="flush-collapse" style="border: 0; background-color: #fff; font-size: 0.5em;">
+                      More about this tour
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                      </svg>
+                    </button>
+                  </h2>
+                </div>
+                <div class="col">
+                  <form>
+                    <div class="row form-group">
+                            <div class="input-group date" id="datepicker1">
+                                <input type="text" class="form-control">
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                </span>
+                            </div>
+                    </div>
+                    <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 0.8em; ">BOOK TICKET</button>
+                </form>
+                 
+                </div>
+                </div>
+                  <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-justify">The Barcelona Football Club offers you the opportunity to visit its mythical stadium: Camp Nou. After the Sagrada Familia, the Camp Nou is undoubtedly the other temple of the city, the largest stadium in Spain and Europe.
+
+                      The tour lasts between one and a half and two hours.
+                      We discover the FC Barcelona museum and its mythical stadium, the Camp Nou
+                      The tour will take you to the pitch, the players' bench, and the stands, passing through the changing rooms, the chapel, the mixed press area, etc. You will learn all about its history, the capacity of the stadium, and even about the future new Camp Nou planned in 2025.
+                      This visit is called "Camp Nou Experience" because it is a real immersion in the world of the "Blaugranas". A once in a lifetime visit!</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-6 col-sm-12 col-lg-4 d-flex justify-content-center p-5">
+          <div class="card" style="max-width: 350px;">
+          <img src="./imagini/Casa Batlló.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+            <h5 class="card-title p-1" style="background-color:#625772; width: 35%; margin-top: -55px; color:#fff; border-radius: 5px;"> <span style="font-size: 0.8em;"> from</span> &euro;25</h5>
+            <h5 class="card-title" style="font-weight: 700;">Casa Batlló Tickets</h5>
+              <p class="card-text text-justify" style="font-size: 1em;">Casa Batlló is one the most original and dreamlike of the achievements of the architect Antoni Gaudí.</p>
+            </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <div class="row mt-3">
+                    <div class="col">
+                  <h2 class="accordion-header m-0" id="flush-headingOne" style="font-size: 1.8em;">
+                    <button class="accordion-button collapsed py-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseO" aria-expanded="false" aria-controls="flush-collapseO" style="border: 0; background-color: #fff; font-size: 0.5em;">
+                      More about this tour
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                      </svg>
+                    </button>
+                  </h2>
+                </div>
+                <div class="col">
+                  <form>
+                    <div class="row form-group">
+                            <div class="input-group date" id="datepicker2">
+                                <input type="text" class="form-control">
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                </span>
+                            </div>
+                    </div>
+                    <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 0.8em; ">BOOK TICKET</button>
+                </form>
+                 
+                </div>
+                </div>
+                  <div id="flush-collapseO" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-justify">The Casa Batlló (Batlló house ) is the most original and dreamlike house of the architect Antoni Gaudí in Barcelona. Polychrome facade decorated with ceramic and glass, undulating roof allegory of Saint George killing the dragon. The fundamental work of Catalan modernism, being Gaudi the incontestable leader. It was built between 1904 and 1906. Located at 43, Passeig de Gràcia, in the heart of the Eixample district and precisely in the center of the famous block called « Manzana de la Discordia ».</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+        <div class="col-md-6 col-sm-12 col-lg-4 d-flex justify-content-center p-5">
+          <div class="card" style="max-width: 350px;">
+            <img src="./imagini/casa-mila-la-pedrera.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+              <h5 class="card-title p-1" style="background-color:#625772; width: 35%; margin-top: -55px; color:#fff; border-radius: 5px;"> <span style="font-size: 0.8em;"> from</span> &euro;25</h5>
+              <h5 class="card-title" style="font-weight: 700;">Casa Mila Tickets</h5>
+                <p class="card-text text-justify" style="font-size: 1em;">After the Sagrada Familia, La Casa Milà or "la Pedrera" as it is often called, is probably Gaudi's second most popular building in the city. </p>
+              </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <div class="row mt-3">
+                      <div class="col">
+                    <h2 class="accordion-header m-0" id="flush-headingOne" style="font-size: 1.8em;">
+                      <button class="accordion-button collapsed py-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOn" aria-expanded="false" aria-controls="flush-collapseOn" style="border: 0; background-color: #fff; font-size: 0.5em;">
+                        More about this tour
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                        </svg>
+                      </button>
+                    </h2>
+                  </div>
+                  <div class="col">
+                    <form>
+                      <div class="row form-group">
+                              <div class="input-group date" id="datepicker3">
+                                  <input type="text" class="form-control">
+                                  <span class="input-group-append">
+                                      <span class="input-group-text bg-white">
+                                          <i class="fa fa-calendar"></i>
+                                      </span>
+                                  </span>
+                              </div>
+                      </div>
+                      <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 0.8em; ">BOOK TICKET</button>
+                  </form>
+                   
+                  </div>
+                  </div>
+                    <div id="flush-collapseOn" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body text-justify">A totally unusual façade for this last civil work of Antoni Gaudí, La Casa Milà, nicknamed La Pedrera ( the quarry), in part because the cliffs near Barcelona were the inspiration of the great architect but also because of the appearance of the wavy facade of the building. In fact, the building does not have a single straight line, the façade is designed in such a way that it is impossible to draw a vertical line from the roof to the ground.. Not much appreciated by the inhabitants of the city who cover it with sobriquets - piles of white stones, hangar for airships, earthquake - Gaudí  had to fight with its owners who refused to pay his full salary. Following a lawsuit initiated by the architect and lost by the Milà, the latter decides to pay the sums recovered to a convent. A tumultuous history for what is now a monument of Catalan Modernism.</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-sm-12 col-lg-4 d-flex justify-content-center p-5">
+          <div class="card" style="max-width: 350px;">
+            <img src="./imagini/poble-espanyol.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+              <h5 class="card-title p-1" style="background-color:#625772; width: 35%; margin-top: -55px; color:#fff; border-radius: 5px;"> <span style="font-size: 0.8em;"> from</span> &euro;25</h5>
+              <h5 class="card-title" style="font-weight: 700;">Poble Espanyol – The Spanish Village Tickets</h5>
+                <p class="card-text text-justify" style="font-size: 1em;">Experience Spain´s architectural diversity in this open-air museum and enjoy typical cuisine, traditional crafts and culture.</p>
+              </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <div class="row mt-3">
+                      <div class="col">
+                    <h2 class="accordion-header m-0" id="flush-headingOne" style="font-size: 1.8em;">
+                      <button class="accordion-button collapsed py-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collaps" aria-expanded="false" aria-controls="flush-collaps" style="border: 0; background-color: #fff; font-size: 0.5em;">
+                        More about this tour
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                        </svg>
+                      </button>
+                    </h2>
+                  </div>
+                  <div class="col">
+                    <form>
+                      <div class="row form-group">
+                              <div class="input-group date" id="datepicker4">
+                                  <input type="text" class="form-control">
+                                  <span class="input-group-append">
+                                      <span class="input-group-text bg-white">
+                                          <i class="fa fa-calendar"></i>
+                                      </span>
+                                  </span>
+                              </div>
+                      </div>
+                      <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 0.8em; ">BOOK TICKET</button>
+                  </form>
+                   
+                  </div>
+                  </div>
+                    <div id="flush-collaps" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body text-justify">Take a break from Barcelona´s hustle and bustle on a stroll through the picturesque Poble Espanyol and walk by Galician townhouses, Catalan monasteries and through winding Andalusian alleyways.
+
+                        Built for the International Exhibition in 1929, the Spanish village reproduces the different architectural styles of fifteen regions of Spain and recreates an Iberian village with the typical central square and city hall, narrow streets and charming archways. Covering an area of 49,000 m² and situated at the foot of Montjuïc, the village became so popular during the International Exhibition, that it was conserved even after the event closed its doors and attracts today more than 1 million visitors every year.</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  
+          <div class="col-md-6 col-sm-12 col-lg-4 d-flex justify-content-center p-5">
+            <div class="card" style="max-width: 350px;">
+            <img src="./imagini/Sagrada Familia.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+              <h5 class="card-title p-1" style="background-color:#625772; width: 35%; margin-top: -55px; color:#fff; border-radius: 5px;"> <span style="font-size: 0.8em;"> from</span> &euro;25</h5>
+              <h5 class="card-title" style="font-weight: 700;">Sagrada familia ticket</h5>
+                <p class="card-text" style="font-size: 1em;">Visit Antoni Gaudi's unfinished masterpiece.</p>
+              </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <div class="row mt-3">
+                      <div class="col">
+                    <h2 class="accordion-header m-0" id="flush-headingOne" style="font-size: 1.8em;">
+                      <button class="accordion-button collapsed py-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseT" aria-expanded="false" aria-controls="flush-collapseT" style="border: 0; background-color: #fff; font-size: 0.5em;">
+                        More about this tour
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                        </svg>
+                      </button>
+                    </h2>
+                  </div>
+                  <div class="col">
+                    <form>
+                      <div class="row form-group">
+                              <div class="input-group date" id="datepicker5">
+                                  <input type="text" class="form-control">
+                                  <span class="input-group-append">
+                                      <span class="input-group-text bg-white">
+                                          <i class="fa fa-calendar"></i>
+                                      </span>
+                                  </span>
+                              </div>
+                      </div>
+                      <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 0.8em; ">BOOK TICKET</button>
+                  </form>
+                   
+                  </div>
+                  </div>
+                    <div id="flush-collapseT" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body text-justify">« Save time when visiting Barcelona » 
+                        To avoid the unavoidable queues for this emblematic monument of the Catalan capital, we advise you to purchase in advance your tickets to La Sagrada Familia. Several solutions are available to you: from the simple admission ticket to the skip the line ticket by way of the guided tour or ticket with audioguide.
+                        
+                        Here is a small selection of our best-selling tickets, the most appreciated and our advice ;-)
+                        
+                        Tip : « Get organized before you go »
+                        Do not wait to be in Barcelona to prepare your trip. You are not the only one to visit this architectural masterpiece by Antoni Gaudí, the best representative of Catalan Modernism. Buying your tickets online is so simple, quick and smart that it is now more complicated to do otherwise.
+                        In a nutshell: you buy your ticket, on our secure site, for a date and time that suits you. You can pay with Visa, CB, Mastercard or Paypal. You will receive by email your ticket which you simply have to print before your departure or to download on your smartphone and you are ready!</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+         
+    <div class="row py-5 my-5">
+      <div class="col-lg-5 col-md-12 d-flex justify-content-center align-items-center" >
+        <img src="./imagini/BarcaColaj.png" class="img-fluid" alt="...">
+      </div>
+      <div class="col-lg-7 col-md-12 mb-5">
+        <div class="mt-5">
+          <div class="d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title text-center" style="font-weight: 700; font-size: 3em; color:#f9cebd; font-family:'Roboto',sans-serif;">THE GAUDI BUNDLE</h5>
+            <p class="card-text text-center" style="font-weight: 700; font-size: 2em; font-family: 'Oooh Baby',cursive; color: #625772; margin-top: -40px;">Everything you need in Barcelona</p>
+            <p class="px-5 mx-5 text-justify"> Anthoni Gaudi is an inspiration for many! His true love for the city of Barcelona resulted in one of the biggest icons of the world like the Sagrada Familia, Park Güell, Casa Mila (La Pedrera), Casa Batllo, Palau Güell and many more! All his work attract many visitors per day and shaped Barcelona as it is right now. The Gaudi Bundle makes sure you can enjoy the best out of the 2 most visited highlights of Gaudi: Sagrada Familia & Park Güell!</p>
+            <h5 class="py-2" style="font-weight: 700;">What’s included in the Gaudí Bundle?</h5>
+            <ul>
+              <li>Fast Track tickets for the Sagrada Familia including official Audioguide App</li>
+              <li>Fast Track Tickets for Park Guell including Audioguide by App</li>
+              <li>Audioguide of the city of Barcelona</li>
+              <li>Exterior Audioguide Tour of the Sagrada Familia - downloadable on your mobile</li>
+            </ul>  
+            <div class="d-flex flex-column"> <span style="font-size: 0.9em;color: grey;"> from</span> <span style="font-size: 1.2em;font-weight: 600;"> &euro;60 </span></div>
+            <form class="d-flex flex-column justify-content-center align-items-center">
+              <div class="row form-group">
+                      <div class="input-group date" id="datepicker6">
+                          <input type="text" class="form-control">
+                          <span class="input-group-append">
+                              <span class="input-group-text bg-white">
+                                  <i class="fa fa-calendar"></i>
+                              </span>
+                          </span>
+                      </div>
+              </div>
+              <div class="row">
+              <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 1em; ">BOOK PASS</button>
+            </div>         
+            </form>
+       
+          </div>
+  
+      </div>
+    </div>
+
+         
+    <div class="row pt-5 mt-5">
+      <div class="col-lg-7 col-md-12 mb-5">
+        <div class="mt-5">
+          <div class="d-flex justify-content-center align-items-center flex-column">
+            <h5 class="card-title text-center" style="font-weight: 700; font-size: 3em; color:#f9cebd; font-family:'Roboto',sans-serif;">MONTSERRAT WHIT COGWEEL TRAIN</h5>
+            <p class="card-text text-center" style="font-weight: 700; font-size: 2em; font-family: 'Oooh Baby',cursive; color: #625772; margin-top: -40px;">Tasting in a Boutique Winery with Tapas or Lunch</p>
+            <p class="px-5 mx-5 text-justify"> Marvel over Montserrat, and then enjoy tapas and wine on this full-day, small-group tour from Barcelona. Ride the cogwheel train to the mountaintop monastery of Montserrat, admire views over the Catalan countryside, and sample local treats such as coca de Montserrat and Montserrat liquor. Next, head to the Oller del Mas château, where you can tour the wine cellar, stroll the vineyards, and indulge in an expert-led winetasting. Finally, choose to dig into a delicious tapas brunch at the château, or enjoy a 3-course meal at a local restaurant.</p>
+            <h5  class="py-2" style="font-weight: 700;">What’s included in the Montserrat Bundle?</h5>
+            <ul>
+              <li>Choose between a 3-course lunch at a local restaurant or a delicious tapas brunch</li>
+              <li>Ride the cogwheel train to the mountaintop at Montserrat Monastery</li>
+              <li>Taste organic wines at the Oller del Mas château</li>
+              <li>Small-group tour limited to 16 people ensures a personalized experience</li>
+            </ul>  
+            <div class="d-flex flex-column"> <span style="font-size: 0.9em;color: grey;"> from</span> <span style="font-size: 1.2em;font-weight: 600;"> &euro;80 </span></div>
+            <form class="d-flex flex-column justify-content-center align-items-center">
+              <div class="row form-group">
+                      <div class="input-group date" id="datepicker7">
+                          <input type="text" class="form-control">
+                          <span class="input-group-append">
+                              <span class="input-group-text bg-white">
+                                  <i class="fa fa-calendar"></i>
+                              </span>
+                          </span>
+                      </div>
+              </div>
+              <div class="row">
+              <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 1em; ">BOOK PASS</button>
+            </div>         
+            </form>
+          </div>
+      </div>
+    </div>
+     <div class="col-lg-5 col-md-12 d-flex justify-content-center align-items-center" >
+      <img src="./imagini/MontseratColaj.png" class="img-fluid" alt="...">
+    </div>
+  </div>
+
+
+  <div class="row mb-5 mt-3">
+    <div class="col-lg-5 col-md-12 d-flex justify-content-center align-items-center" >
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="border-radius: 10px;">
+          <div class="carousel-item active">
+            <img src="./imagini/aquarium.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagini/aquarium1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagini/aquarium2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagini/aquarium4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-7 col-md-12 mb-5">
+      <div class="mt-5">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+          <h5 class="card-title text-center" style="font-weight: 700; font-size: 3em; color:#f9cebd; font-family:'Roboto',sans-serif;">Barcelona Aquarium</h5>
+          <p class="card-text text-center" style="font-weight: 700; font-size: 2em; font-family: 'Oooh Baby',cursive; color: #625772; margin-top: -40px;">Visit the unique Barcelona Aquarium</p>
+          <p class="px-5 mx-5 text-justify"> 
+            The Barcelona Aquarium is located in Port Vell, the city’s old harbor area, and is the world's most important marine leisure and education center dedicated to Mediterranean undersea life.
+            
+            Book your priority access ticket for this unique attraction that has already been visited by more than 14 million people.
+            
+            The aquarium is the perfect place to learn about the seabed and the many species that live there. See the 35 Mediterranean and tropical tanks that are home to 11,000 animals from some 450 different species.
+            
+            Most spectacular of all is the immense Oceanarium, 5 meters deep and 36 meters in diameter. A transparent 80-meter-long tunnel runs through the Oceanarium, making it possible for you to walk among sharks, gilt heads, morays, ocean sunfish, and many other species.
+            
+         </p>
+          <h5 class="py-2" style="font-weight: 700;">What’s included in the Bundle?</h5>
+          <ul>
+            <li>Enjoy priority access to the Barcelona Aquarium</li>
+            <li>See a variety of Mediterranean and tropical tanks, home to 450 different species</li>
+            <li>Walk among sharks in the Oceanarium</li>
+          </ul>  
+          <div class="d-flex flex-column"> <span style="font-size: 0.9em;color: grey;"> from</span> <span style="font-size: 1.2em;font-weight: 600;"> &euro;30 </span></div>
+          <form class="d-flex flex-column justify-content-center align-items-center">
+            <div class="row form-group">
+                    <div class="input-group date" id="datepicker8">
+                        <input type="text" class="form-control">
+                        <span class="input-group-append">
+                            <span class="input-group-text bg-white">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </span>
+                    </div>
+            </div>
+            <div class="row">
+            <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 1em; ">BOOK PASS</button>
+          </div>         
+          </form>
+     
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mb-5 mt-3">
+      <div class="col-12 my-3 py-5">
+        <h5 class="card-title text-center" style="font-weight: 700; font-size: 3em; color:#f9cebd; font-family:'Roboto',sans-serif;">Barcelona Flamenco Show</h5>
+        <p class="card-text text-center" style="font-weight: 700; font-size: 2em; font-family: 'Oooh Baby',cursive; color: #625772; margin-top: -40px;">at City Hall Theater</p>
+      </div>
+      <div class="col-12 d-flex justify-content-center align-items-center" >
+        <div class="card-group">
+          <div class="card border-0">
+            <img src="./imagini/BarcelonaGranGala-T24c.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-justify">
+                Make your way to Barcelona City Hall to enjoy a traditional Spanish art form, awarded UNESCO World Heritage status in 2010. Soak up the unique atmosphere of flamenco as some of the most talented artistes in Spain seduce with music, singing and dancing.</p>
+                <ul>
+                  <li>Soak up the unique party atmosphere of flamenco</li>
+                  <li>Experience an authentic Spanish art form</li>
+                  <li>Admire the beautiful features of City Hall and the former Teatro de Barcelona</li>
+                </ul>  
+              </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <p class="card-text text-justify">Surrender to the charms of some of the most prominent dancers on the Catalan flamenco scene as they perform in the former Teatro de Barcelona. Admire the beautiful features of the early 19th-century theater, including a stage framed with light bulbs, velvet curtains and original stage machinery. See legendary dancers including Ivan Alcalà, Raúl Ortega, Patricia Dominguez and Yolanda Cortés. Hear seductive singers, such as Antonio el Mantecao, Miguel de la Tolea, La Tana and Josefa G.Contreras. Admire flamenco guitarists, Oliver Haldon and Eduardo Cortés, along with percussion by Joni C. Sanchez and Jacobo C. Sanchez.</p>
+            </div>
+            <img src="./imagini/flamenco.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card border-0">
+            <img src="./imagini/BarcelonaGranGala-T24d.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-justify">Let the improvised flamenco "jam sessions" get under your skin and sense the visceral emotion taking place on stage. Get back to the roots of authentic flamenco with performances such as the fast-rhythm "Bulerías," guitar "solos," beat percussion, singing in its purest form, face-to-face duels and "Soleás."</p>
+              
+              <form class="d-flex flex-column justify-content-center align-items-center">
+                <div class="row form-group">
+                        <div class="input-group date" id="datepicker9">
+                            <input type="text" class="form-control">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                </div>
+                <div class="row">
+              <div class="col-4">
+                <div class="d-flex flex-column"> <span style="font-size: 0.9em;color: grey;"> from</span> <span style="font-size: 1.2em;font-weight: 600;"> &euro;20 </span></div>
+              </div>
+              <div class="col-8">
+                <button type="button" class="btn px-3" style="background-color:#f9cebd; border-radius: 30px; color:#fff; font-weight: 700; font-size: 0.8em; ">BOOK PASS</button>
+              </div>
+              </div>         
+              </form>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+    </main>
+   <!--END of the main section-->
+
+    <!--Footer-->
+    <img src="./imagini/footer.png" class="img-fluid m-o p-0" style="z-index:-1;" alt="...">
+    <footer >
+    <div class="p-0 m-0 row d-flex justify-content-between">
+        <div class="col-md-8 col-sm-12 p-3">
+          <p id="footertxt1">Barcelona</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <p class="h5 mb-3 footertxt2" >Get the freshest news</p>
+          <form class="d-flex">
+            <div class="form-group input-group-sm">
+            <input name="subscribe" type="email" class="form-control" placeholder="name@example.com">
+            </div>
+            <button name="sumbit" type="submit" class="btn btn-outline-light ml-3" id="subscribebtn">SUBSCRIBE</button>
+         </form>
+        </div>
+        <div class="col-12">
+          <hr>
+        </div>
+        <div class="col-12 pb-2">
+          <a href="" class="p-1 text-light" style="text-decoration: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </a>
+          <a href="" class="p-1 text-light" style="text-decoration: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"  fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+          </a>
+          <a href="" class="p-1 text-light" style="text-decoration: none;">
+            <svg xmlns="http://www.w3.org/2000/svg"  width="25" height="25"  fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+          </a>
+          <a href="" class="p-1 text-light" style="text-decoration: none;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+          </a>
+        </div>
+    </div>
+  </footer>
+      <!--END of the footer-->
+      <script type="text/javascript">
+        $(function() {
+            $('#datepicker').datepicker();
+        });
+        $(function() {
+            $('#datepicker1').datepicker();
+        });
+        $(function() {
+            $('#datepicker2').datepicker();
+        });
+        $(function() {
+            $('#datepicker3').datepicker();
+        });
+        $(function() {
+            $('#datepicker4').datepicker();
+        });
+        $(function() {
+            $('#datepicker5').datepicker();
+        });
+        $(function() {
+            $('#datepicker6').datepicker();
+        });
+        $(function() {
+            $('#datepicker7').datepicker();
+        });
+        $(function() {
+            $('#datepicker8').datepicker();
+        });
+        $(function() {
+            $('#datepicker9').datepicker();
+        });
+
+    </script>
+      <script src="index.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+</div>
+</body>
+
+  </html>
